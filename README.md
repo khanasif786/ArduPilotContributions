@@ -16,3 +16,7 @@
 Maximum altitude in centimeters or meters that FBWB, and CRUISE modes will allow. If you attempt to ascend above this altitude, then the plane will level off. A value of zero means no limit.
 
 ### [Added compass glitch detection to fix gps_glitch showing in mag anomaly #20605](https://github.com/ArduPilot/ardupilot/pull/20605)
+- fixes EKF: "GPS Glitch" warning can be misleading because it's not always the GPS that is misbehaving.
+
+### [removed yaw_rate args from set_target_angle_and_climbrate #20436](https://github.com/ArduPilot/ardupilot/pull/20436)
+- Newer version of this pull [fixed set_target_angle_and_climbrate's use_yaw_rate fields don't work](https://github.com/ArduPilot/ardupilot/pull/20435)

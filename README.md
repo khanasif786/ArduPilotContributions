@@ -20,3 +20,6 @@ Maximum altitude in centimeters or meters that FBWB, and CRUISE modes will allow
 
 ### [removed yaw_rate args from set_target_angle_and_climbrate #20436](https://github.com/ArduPilot/ardupilot/pull/20436)
 - Newer version of this pull [fixed set_target_angle_and_climbrate's use_yaw_rate fields don't work](https://github.com/ArduPilot/ardupilot/pull/20435)
+
+### [AP_Scripting: changed MAV_SEVERITY_EMERGENCY to INFO for origin set #20739](https://github.com/ArduPilot/ardupilot/pull/20739)
+- Changed MAV_SEVERITY_EMERGENCY to MAV_SEVERITY_INFO for origin set command ack message on GCS.

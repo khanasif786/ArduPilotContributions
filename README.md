@@ -1,4 +1,5 @@
 # ArduPilotContributions
+Only flightstack contributions are here-
 ### [AP_Proximity: Removed AP_Proximity_LightWareSF40C_v09](https://github.com/ArduPilot/ardupilot/pull/19707)
 - Deleted older drivers for fixing running out of flash space in some boards.
 
